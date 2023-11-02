@@ -2,3 +2,15 @@ h1{
   font-size:50px;
   color:#ff2000;
 }
+
+/* 既存のスタイル */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* ダークモードのスタイル */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
