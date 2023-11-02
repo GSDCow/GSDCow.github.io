@@ -71,6 +71,16 @@
                 <li><a href="https://gameparade.creators-guild.com/works/973">BLOOD OXYGEN</a></li>
             </ul>
     </section>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const darkModeToggle = document.getElementById("darkModeToggle");
+            const body = document.body;
 
+            darkModeToggle.addEventListener("click", function() {
+                body.classList.toggle("dark-mode");
+            });
+        });
+    </script>
 </body>
 </html>
